@@ -1,2 +1,1 @@
-# web
-MiaJupiter Web Site
+# MiaJupiter Website
