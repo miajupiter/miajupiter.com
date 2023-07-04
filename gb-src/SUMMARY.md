@@ -1,6 +1,7 @@
 # Table of contents
 
-* [👋 Welcome MiaJupiter](README.md)
+* [MiaJupiter](README.md)
+  * [Business Automation](miajupiter/business-automation.md)
 
 ## Overview
 

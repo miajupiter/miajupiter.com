@@ -1,31 +1,36 @@
 ---
 description: Simplicity is a form of high intelligence.
-cover: >-
-  https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw5fHxjb2RlfGVufDB8fHx8MTY4ODQ4NDA4NXww&ixlib=rb-4.0.3&q=85
-coverY: -493
+cover: .gitbook/assets/universe.jpg
+coverY: 136
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: false
+  outline:
+    visible: false
+  pagination:
+    visible: true
 ---
 
-# 👋 Welcome MiaJupiter
+# MiaJupiter
 
+### Automates Everything in Your Business
 
-
-{% hint style="info" %}
-**GitBook tip:** your product docs aren't just a refghjghjghjerence of all your features! use them to encourage folks toggg perform certain actions and discover the value in your product.ghjghjghj
-{% endhint %}
+[Business Automation](https://app.gitbook.com/o/BPP6011IV15uUOL2mudd/s/FujMLdS3iHSU0UqxeSid/\~/changes/1/miajupiter/business-automation)
 
 ## Overview
 
-— From the [Loom Docs](https://support.loom.com/hc/en-us/articles/360002158057-What-is-Loom-)
+{% content-ref url="miajupiter/business-automation.md" %}
+[business-automation.md](miajupiter/business-automation.md)
+{% endcontent-ref %}
 
-Here are a couple of example overviews from products with really great docs:
 
-> Loom is a video messaging tool that helps you get your message across through instantly shareable videos.
->
-> With Loom, you can record your camera, microphone, and desktop simultaneously. Your video is then instantly available to share through Loom's patented technology.
-
-> The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more.
->
-> — From the [Mailchimp Marketing API docs](https://mailchimp.com/developer/marketing/docs/fundamentals/)
 
 ## Quick links
 
