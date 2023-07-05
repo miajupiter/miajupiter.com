@@ -1,6 +1,25 @@
-/*
- * Globals
- */
+@import"https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap";
+
+:root {
+  --koyu-mavi: #0c1016;
+  --koyu-mavi-rgb: rgb(12, 16, 22);
+
+  --acik-mavi: #938cf9;
+  --acik-mavi-rgb: rgb(147 140 249);
+
+  --beyaz: #fcfeff;
+  --beyaz-rgb:rgb(252 254 255);
+
+  --sari-renk: #adff2f;
+  --sari-renk-rgb: rgb(173, 255, 47);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Alegreya Sans, sans-serif
+}
 
 
 /* Custom default button */
@@ -8,7 +27,8 @@
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
 }
 
 
@@ -19,7 +39,9 @@
 body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+
 }
+
 
 .cover-container {
   max-width: 42em;
@@ -31,23 +53,31 @@ body {
  */
 
 .nav-masthead .nav-link {
-  color: rgba(144, 238, 144, .7);
+  color: rgb(143, 255, 0, 0.8);
   /* border-bottom: .25rem solid transparent; */
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   /* border-bottom-color: rgba(255, 255, 255, .25); */
-  color: rgba(144, 238, 144, 1);
+  color: rgb(143, 255, 0, 1);
 }
 
-.nav-masthead .nav-link + .nav-link {
+.nav-masthead .nav-link,
+.nav-link {
   margin-left: 1rem;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+header:first-child {
+  border-bottom: 1.5px solid rgb(100 149 237 / 37%);
+  padding-bottom: 1rem;
 }
 
 .bd-placeholder-img {
@@ -102,5 +132,176 @@ body {
 }
 
 .logo img {
-  max-height: 100px;
+  max-height: 80px;
+  color: #adff2f;
+}
+
+footer {
+  border-top: 1.5px solid rgb(100 149 237 / 37%);
+  color: cornflowerblue;
+}
+
+/* body.bg-mia {
+  background-color: #0f172a!important;
+} */
+.text-mia {
+  color: cornflowerblue;
+}
+
+.text-jupiter {
+  color: greenyellow;
+}
+
+
+/* 
+main {
+  position: relative;
+} */
+
+
+#app {
+  width: 100%;
+  height: 600px;
+  background: #343541;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 10px 10px;
+  margin-bottom: 30px;
+  
+}
+
+#chat_container {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  gap: 10px;
+  
+  /* display: flex;
+  flex-direction: column;
+
+  -ms-overflow-style: none;
+  scrollbar-width: 11px;
+  padding-bottom: 20px;
+  scroll-behavior: smooth */
+} 
+
+/* 
+#chat_container::-webkit-scrollbar {
+  display: none
+} */
+
+.wrapper {
+  width: 100%;
+  padding: 15px
+}
+
+.ai {
+  background: #40414F
+}
+
+.chat {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px
+}
+
+.profile {
+  width: 36px;
+  height: 36px;
+  border-radius: 5px;
+  background: #5436DA;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.ai .profile {
+  background: #10a37f
+}
+
+.profile img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain
+}
+
+.message {
+  flex: 1;
+  color: #dcdcdc;
+  font-size: 20px;
+  max-width: 100%;
+  overflow-x: scroll;
+  white-space: pre-wrap;
+  -ms-overflow-style: none;
+  scrollbar-width: none
+}
+
+/* .message::-webkit-scrollbar {
+  display: none
+} */
+
+form {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #40414F;
+  display: flex;
+  flex-direction: row;
+  gap: 10px
+}
+
+textarea {
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+  border: 1.5px solid rgba(173, 255, 147, 0.7);
+  outline: none
+}
+
+#send-button {
+  color: rgba(173, 255, 147, 0.7);
+  border-color: rgba(173, 255, 147, 0.7);
+
+}
+
+button {
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background: transparent
+}
+
+form img {
+  width: 30px;
+  height: 30px
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--bs-gray-500);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--bs-gray-600);
 }

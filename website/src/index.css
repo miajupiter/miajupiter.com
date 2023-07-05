@@ -1,0 +1,20 @@
+:root {
+  --sari-renk:rgb(120, 255, 132);
+}
+body {
+  color: #fff!important;
+  background-color: rgba(15,23,42,1)!important;
+}
+.border-bottom {
+  border-bottom: 1px solid #dee2e680!important;
+}
+
+header nav a {
+  color: var(--sari-renk)!important;
+}
+header .logo img {
+  max-height: 70px;
+}
+header a.logo {
+  color: var(--sari-renk);
+}
