@@ -26,8 +26,8 @@ layout:
 
 ## Overview
 
-{% content-ref url="miajupiter/business-automation.md" %}
-[business-automation.md](miajupiter/business-automation.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 
